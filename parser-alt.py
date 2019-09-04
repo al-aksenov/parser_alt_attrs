@@ -67,5 +67,4 @@ with open("images.txt", 'w') as f:
         cur_url = page.contents[0]
         fillFile(f, cur_url)
     f.write("\n{} images without alt founded\n".format(count))
-
 print("Done! See images.txt")
